@@ -1,0 +1,4 @@
+《大话设计模式》
+第一章：简单工厂模式
+Simple Factory Pattern
+实现一个简单的计算器
