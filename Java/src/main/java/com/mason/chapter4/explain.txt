@@ -1,0 +1,11 @@
+《大话设计模式》
+第四章：开放-封闭原则
+Open Closed Principle
+OCP
+
+开放-封闭原则：软件实体（类、模块、函数等）应该可以扩展，但是不可修改
+
+对扩展开放，open for extension
+对更改封闭，closed for modification
+
+面对需求，对程序的改动可以通过新增代码完成，而不需要改动原有代码

@@ -1,4 +1,4 @@
-package com.mason.chapter_one;
+package com.mason.chapter1;
 
 /**
  * Created by mwu on 2020/5/9

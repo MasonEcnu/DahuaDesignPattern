@@ -1,4 +1,4 @@
-package com.mason.chapter_two.simple_factory;
+package com.mason.chapter2.strategy;
 
 import com.mason.basic.Console;
 
@@ -11,8 +11,8 @@ public class TestCashier {
         Console console = new Console();
         String mode = console.readLine();
         double money = console.readDouble();
-        Cashier cashier = CashierFactory.createCashier(mode);
-        System.out.println(cashier.acceptCash(money));
+        CashierContext context = new CashierContext(mode);
+        System.out.println(context.getResult(money));
         console.close();
     }
 }

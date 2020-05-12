@@ -1,0 +1,18 @@
+《大话设计模式》
+第五章：依赖倒转原则
+Dependence Inversion Principle
+DIP
+
+抽象不应该依赖于细节
+细节应该依赖于抽象
+
+面向接口编程
+
+1.高层模块不应该依赖底层模块，两个都应该依赖抽象
+2.抽象不应该依赖细节，细节应该依赖抽象
+
+里氏代换原则
+Liskov Substitution Principle
+LSP
+
+子类型必须能够替换掉它们的父类型

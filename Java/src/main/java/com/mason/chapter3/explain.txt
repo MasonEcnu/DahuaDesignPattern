@@ -1,0 +1,6 @@
+《大话设计模式》
+第三章：单一职责原则
+Single Responsibility Principle
+SRP
+
+单一职责原则：就一个类而言，应该仅有一个引起它变化的原因

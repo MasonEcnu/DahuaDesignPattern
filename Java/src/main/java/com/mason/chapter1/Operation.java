@@ -1,4 +1,4 @@
-package com.mason.chapter_one;
+package com.mason.chapter1;
 
 import java.math.BigDecimal;
 

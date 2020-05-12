@@ -1,4 +1,9 @@
-package com.mason.chapter_two.simple_factory;
+package com.mason.chapter2.simple_factory;
+
+import com.mason.chapter2.common.CashNormal;
+import com.mason.chapter2.common.CashRebate;
+import com.mason.chapter2.common.CashReturn;
+import com.mason.chapter2.common.Cashier;
 
 /**
  * Created by mwu on 2020/5/9
