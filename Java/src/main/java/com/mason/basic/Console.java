@@ -16,6 +16,14 @@ public class Console {
         scanner = new Scanner(System.in);
     }
 
+    public static void main(String[] args) {
+        Console console = new Console();
+        System.out.println(console.readLine());
+        System.out.println(console.readInt());
+        System.out.println(console.readBoolean());
+        console.close();
+    }
+
     public String readLine() {
         System.out.println("请输入string值：");
         return scanner.nextLine();
@@ -59,13 +67,5 @@ public class Console {
 
     public void close() {
         scanner.close();
-    }
-
-    public static void main(String[] args) {
-        Console console = new Console();
-        System.out.println(console.readLine());
-        System.out.println(console.readInt());
-        System.out.println(console.readBoolean());
-        console.close();
     }
 }

@@ -30,11 +30,11 @@ public class CashierContext {
         }
     }
 
-    public double getResult(double money) {
-        return cashier.acceptCash(money);
-    }
-
     public static void main(String[] args) {
         System.out.println(CashReturn.class.getName());
+    }
+
+    public double getResult(double money) {
+        return cashier.acceptCash(money);
     }
 }
